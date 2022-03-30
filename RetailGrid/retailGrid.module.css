@@ -1,0 +1,385 @@
+.buttonsDiv {
+  display: flex;
+  flex-direction: row;
+  padding-top: 14px;
+  margin-right: 0;
+  float: right;
+  position: relative;
+}
+
+.retailHeader {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.13;
+  color: #212121;
+  margin: 20px 0;
+  display: inline-block;
+}
+
+.uploadTitle {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.13;
+  color: #212121;
+  margin-left: 12px;
+}
+
+.button {
+  color: #006ff1;
+  fill: #006ff1;
+  width: 24px;
+  height: 24px;
+}
+
+.buttonUpload {
+  width: 110px;
+}
+
+.buttonContainer {
+  width: 44px;
+  height: 44px;
+  border: 2px solid #006ff1 !important;
+  border-radius: 50% !important;
+  margin-right: 14px !important;
+  cursor: pointer;
+}
+
+.buttonContainer:disabled {
+  color: rgba(0, 0, 0, 0.26) !important;
+  border-color: rgba(0, 0, 0, 0.26) !important;
+}
+
+.buttonContainer:disabled .button {
+  fill: rgba(0, 0, 0, 0.26);
+}
+
+.buttonContainer:active {
+  color: #dbecff !important;
+  border-color: #0071e9 !important;
+}
+
+.buttonContainer:active .button {
+  fill: #0071e9 !important;
+}
+
+.buttonContainer:hover {
+  border-color: #0060c6 !important;
+}
+
+.buttonContainer:hover .button {
+  fill: #004a98 !important;
+}
+
+.headerContainer {
+  display: flex;
+  margin-left: 40px;
+  padding-top: 25px;
+  border-bottom: solid 1px #dddddd;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.headerContainerUpload {
+  display: flex;
+  flex-direction: row;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-left: auto;
+}
+
+.futureStatus {
+  border: 1px solid #1aab5c;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.blockedStatus {
+  border: 1px solid #ffb72c;
+  padding: 4px;
+  border-radius: 2px;
+}
+.lock {
+  padding-left: 30px !important;
+  display: inline;
+}
+
+.typeContainer {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  /* text-align: center; */
+  color: #424242;
+  margin-top: 16px;
+  text-transform: capitalize;
+}
+
+.typeClubData {
+  background-color: #c9bbf1;
+  border-radius: 12px;
+  padding: 4px 8px;
+}
+.typeSiteData {
+  background-color: #f1c5bb;
+  border-radius: 12px;
+  padding: 4px 8px;
+}
+.typeEcommData {
+  background-color: #a6cdf7;
+  border-radius: 12px;
+  padding: 4px 8px;
+}
+.typeDistributionData {
+  background-color: #e3f4f8;
+  border-radius: 12px;
+  padding: 4px 8px;
+}
+
+.dialogTitle {
+  color: #212121 !important;
+}
+
+.dialogCloseBtnIcon {
+  fill: #545f7a !important;
+}
+
+.uploadHistoryBtn {
+  padding: 0px !important;
+}
+.checkMark {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  color: #0071e9;
+}
+.filterItemsList {
+  padding: 0;
+  margin: 0;
+}
+.items {
+  height: 24px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px 12px;
+}
+.itemCheckbox {
+  color: #0071e9;
+  font-size: 16px;
+  line-height: 16px;
+  font-style: normal;
+  font-weight: 400;
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.itemLabel {
+  margin-left: 6px;
+  margin-right: 6px;
+  text-overflow: ellipsis;
+  display: initial;
+  width: 200px;
+  overflow: hidden;
+  display: flex;
+}
+.filterDropDown {
+  /* width: 200px; */
+  /* margin: 12px 12px; */
+  /* margin-top: 10px; */
+  box-sizing: border-box;
+  outline: none;
+  align-items: center;
+  line-height: normal;
+  position: relative;
+  font-weight: 400;
+  font-size: 13px;
+}
+.inputContainer {
+  margin: 12px 12px;
+}
+
+.searchBar {
+  flex: 1 1 auto;
+  width: 100%;
+  min-width: 0;
+  padding: 1px 2px;
+  padding-left: 6px;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  border: 1px solid #babfc7;
+  min-height: 24px;
+  border-radius: 3px;
+  outline: none;
+}
+
+.searchBar:focus {
+  box-shadow: 0 0 2px 0.1rem rgb(33 150 243 / 40%);
+  border-color: rgba(33, 150, 243, 0.4);
+}
+
+.searchResult {
+  margin: 0;
+  padding: 0;
+  height: 100px;
+}
+
+.noMatch {
+  margin: 14px;
+  line-height: 30px;
+}
+
+.clearBox {
+  padding: 12px 12px;
+  box-sizing: border-box;
+  outline: none;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.clearBtn {
+  border: none;
+  border-radius: 3px;
+  background-color: #fff;
+  font-weight: 600;
+  padding: 6px 12px;
+  line-height: 1.5;
+  color: #2196f3;
+}
+
+.clearBtn:hover {
+  background-color: rgba(33, 150, 243, 0.1);
+}
+
+.clearBtn:focus {
+  box-shadow: 0 0 2px 0.1rem rgb(33 150 243 / 40%);
+}
+
+.itemIcon {
+  margin: 5px 0px;
+}
+
+.locked {
+  width: 16px;
+  height: 16px;
+  margin-left: 2px;
+}
+
+.scheduleLocked {
+  width: 24px;
+  height: 24px;
+  margin: 3px 5px 0 0;
+}
+
+.lockHeader {
+  font-weight: bold;
+}
+
+.tooltipLockDetails {
+  line-height: 8px;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.uploadMenu {
+  z-index: 999;
+  font-size: 15px;
+  width: 155px;
+  transform: none;
+  top: 63px;
+  right: 10px;
+  transform-origin: 109px 0px;
+  box-shadow: 0px 5px 5px -3px rgb(0 0 0 / 20%), 0px 8px 10px 1px rgb(0 0 0 / 14%),
+    0px 3px 14px 2px rgb(0 0 0 / 12%);
+  border-radius: 4px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.uploadMenu p {
+  margin: 0px;
+  padding: 8px 8px 8px 20px;
+}
+
+.uploadMenu p:hover {
+  background-color: rgba(194, 219, 248, 0.26);
+}
+.wrapper {
+  position: relative;
+}
+
+.noFilteredItem {
+  position: absolute;
+  top: 100px;
+  left: 45%;
+  z-index: 9;
+  transform: translate(-45%, 0%);
+}
+.noFilteredText {
+  opacity: 0;
+  animation: fadeIn 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.headerWrapper {
+  height: 40px;
+  margin-top: 0px;
+  position: sticky;
+  background: #e3eaf2;
+  text-align: center;
+  border-radius: 15px 15px 0 0;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.noHeader {
+  margin-top: 70px;
+}
+
+.headerWrapper:focus {
+  border: none;
+}
+
+.innerWrapper {
+  width: '70%';
+  margin: 0 auto;
+}
+
+.encloseHeader {
+  /* height: 40px; */
+  /* position:relative; */
+  /* display: flex */
+  display: 'inline-flex';
+}
+
+.disabledProperty {
+  color: rgba(0, 0, 0, 0.26);
+  pointer-events: none;
+  cursor: default;
+  display: none;
+}
+.uploadMenuItem {
+  cursor: pointer;
+}

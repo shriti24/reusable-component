@@ -1,0 +1,56 @@
+.tableBody {
+  background: #f5f6f8;
+  box-shadow: inset 0px -1px 0px #c1c8d3;
+  max-width: 1202px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1;
+  overflow-y: hidden;
+}
+
+.mainTableHead {
+  background: #f5f6f8;
+  box-shadow: inset 0px -1px 0px #c1c8d3;
+}
+
+.mainHeaderRow {
+  display: flex;
+  height: 3em;
+}
+
+.flexTable {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 150px;
+}
+
+.mainHeaderRow > div {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 21px;
+  font-style: normal;
+  font-weight: bold;
+  color: #212121;
+  text-align: right;
+}
+
+.accordion_icon {
+  margin-left: auto;
+  transition: transform 0.6s ease;
+}
+
+.chevron_row {
+  padding-left: 35px;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}

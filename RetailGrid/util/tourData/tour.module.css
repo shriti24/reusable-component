@@ -1,0 +1,30 @@
+.itemSort {
+    border: 2px solid #CD179B;
+    border-radius: 9px;
+    padding: 7px 10px 7px 5px;
+}
+.nodeBorder {
+    border: 2px solid #CD179B;
+    border-radius: 9px;
+}
+.tourContainer {
+    color: #545F7A;
+}
+.tourHeader {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.tourContent {
+    font-size: 14px;
+    margin: 0;
+}
+.itemNbr {
+    border-right: none;
+    border-radius: 9px 0px 0px 9px;
+}
+.itemDesc {
+    border-left: none;
+    border-radius: 0px 9px 9px 0px;
+}

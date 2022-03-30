@@ -1,0 +1,56 @@
+import {
+  CLUB_NUMBER_COL,
+  CREATED_BY_USER_COL,
+  CREATED_DATE_AND_TIME_COL,
+  ITEM_NUMBER_COL,
+  KEBAB_MENU_COL,
+  LOCK_EFFECTIVE_DATE_COL,
+  LOCK_END_DATE_COL,
+  LOCK_LAST_MODIFIED_COL,
+  LOCK_STATUS_COL,
+  LOCK_TYPE_COL,
+  MODIFIED_BY_USER_COL,
+  MODIFIED_DATE_AND_TIME_COL,
+  RETAIL_AMOUNT_COL,
+  RETAIL_EFFECTIVE_DATE_COL,
+  RETAIL_REASON_CODE_COL,
+  RETAIL_REASON_COL,
+  RETAIL_STATUS_COL
+} from './column';
+
+export default [
+  ITEM_NUMBER_COL,
+  CLUB_NUMBER_COL,
+  {
+    ...RETAIL_AMOUNT_COL,
+    headerName: 'Customer retail',
+    field: 'customerRetailAmt'
+  },
+  {
+    ...RETAIL_AMOUNT_COL,
+    headerName: 'Pre-tax retail'
+  },
+  {
+    ...RETAIL_EFFECTIVE_DATE_COL,
+    sort: 'asc',
+    sortOrder: 2,
+    cellClass: null
+  },
+  {
+    ...RETAIL_REASON_CODE_COL,
+    filter: null,
+    filterParams: null
+  },
+  RETAIL_REASON_COL,
+  RETAIL_STATUS_COL,
+  CREATED_BY_USER_COL,
+  CREATED_DATE_AND_TIME_COL,
+  MODIFIED_BY_USER_COL,
+  MODIFIED_DATE_AND_TIME_COL,
+  LOCK_STATUS_COL,
+  LOCK_TYPE_COL,
+  LOCK_LAST_MODIFIED_COL,
+  LOCK_EFFECTIVE_DATE_COL,
+  LOCK_END_DATE_COL,
+  KEBAB_MENU_COL
+];

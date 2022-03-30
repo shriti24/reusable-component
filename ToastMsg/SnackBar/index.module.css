@@ -1,0 +1,60 @@
+.snackbar {
+  min-width: 304px;
+  max-width: 476px;
+  display: flex;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  position: fixed;
+  z-index: 2000;
+  padding: 6px 16px;
+  left: 58%;
+  transform: translate(-50%, -50%);
+}
+
+.closeIcon {
+  padding: 12px;
+  font-size: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.fadeIn {
+  visibility: visible;
+  opacity: 1;
+}
+
+.fadeOut {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.closeContainer {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: -8px;
+  padding-left: 16px;
+}
+
+.toastContainer {
+  display: flex;
+  align-items: center;
+}
+
+.message {
+  padding: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.circleCheck {
+  position: relative;
+}
+
+.icon {
+  border-radius: 50%;
+  padding: 4px;
+  color: white;
+  text-align: center;
+}

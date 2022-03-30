@@ -1,0 +1,133 @@
+.open {
+  transform: translateX(0);
+  height: 100%;
+  background: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 200;
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+  transition: width 0.3s ease-out;
+  transition: ease all 0.5s;
+}
+
+.slideOutHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 15px 0 0;
+}
+
+.DrawerHeader {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+}
+
+.closeButton {
+  justify-content: flex-end;
+  border: 0;
+  background: none;
+}
+
+.notificationHeader {
+  text-align: left;
+  display: flex;
+  margin-bottom: -12px;
+}
+
+.notificationHeader h1 {
+  margin-left: 6px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #212121;
+  padding-left: 5px;
+}
+
+.iconContainer {
+  padding: 5px;
+  position: absolute;
+  right: 0px;
+  margin-right: 15px;
+  margin-bottom: 28px;
+}
+
+.list {
+  height: 88%;
+  overflow-y: auto;
+  list-style: none;
+  padding: 0;
+}
+
+.listContainer {
+  height: 100%;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  opacity: 0.5;
+  background-color: #9e9e9e;
+}
+
+.list li {
+  padding: 10px;
+  display: flex;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  margin: 0 3px 2.3px 0;
+  padding: 8px 0;
+  border-radius: 16px;
+  background-color: #a6cdf7;
+  display: flex;
+}
+
+.unReadNotif {
+  background-color: white;
+}
+
+.readNotif {
+  background-color: #e9f5ff;
+}
+
+.notifContainer {
+  max-width: 250px;
+}
+
+.content {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #424242;
+}
+
+.timeStamp {
+  height: 17px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #545f7a;
+  margin: 4px 0;
+}
